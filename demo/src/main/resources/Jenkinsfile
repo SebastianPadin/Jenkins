@@ -6,12 +6,12 @@ pipeline {
     stages {
         stage('Compilar') {
             steps {
-                bat 'mvn clean install -DskipTests'
+                bat 'cd demo && mvn clean install -DskipTests'
             }
         }
         stage('Pruebas de Integración') {
             steps {
-                bat 'mvn test'
+                bat 'cd demo && mvn test'
             }
         }
     }
