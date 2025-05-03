@@ -1,0 +1,4 @@
+com\valery\demo\controller\StudentController.class
+com\valery\demo\repository\StudentRepository.class
+com\valery\demo\entity\Student.class
+com\valery\demo\JmeterDemoApplication.class
